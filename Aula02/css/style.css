@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Dangrek&family=Madimi+One&display=swap');
+body {
+    /* background: url(../img/Nossa\ senhora.jpg) no-repeat  top/cover  ; */
+    background: #2f8dbe;
+    color: #F3B95F;
+    margin: 0;
+    padding: 0;
+    font-family: "Arima", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: #F3B95F
+}
+.textoCentro{
+    text-align: center;
+}
+.fundoLink{
+    background: #FFF0CE;
+}
+
+h1.textoCentro{
+    margin-top: 0;
+    padding: 10px
+}
+h1 a {
+    background: white;
+    padding: 3px;
+    border: solid 1px #B8621B;
+    border-radius: 20px 2px;
+    box-shadow: 3px 3px 1px;
+}
+
+h1 a:hover {
+    background:#FFF0CE;
+}
