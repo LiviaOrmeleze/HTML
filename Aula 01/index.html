@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🌈Livia</title>
+
+    <style>
+        body{
+          background: #5694d3;
+          color:#232585;
+          text-shadow: 2px 2px 2px #ffffff;
+        }
+
+        h1{
+          color: #232585;
+          background: #215fc2a9;
+          text-align:center;
+        }
+
+        h2{
+          color: #193cb8;
+          background: #f9f8f88f;
+          text-align:end;
+          text-shadow: 2px 2px 4px #403f47a4;
+        }
+
+        h3{
+          background:#125fdc7a ;
+          text-align:right
+        }
+        
+
+        h4{
+          text-align: center;
+          background: #1113a1;
+          color: #68aaec;
+          text-shadow: 2px 2px 4px #403f47a4;
+        }
+    </style>
+  </head>
+  <body >
+    <h1> ❤️‍🔥Jesus te ama❤️‍🔥 </h1>
+
+    <h2> "Com efeito, de tal modo Deus amou o mundo, que lhe deu seu Filho único, para todo que naquele crer não pereça, mas tenha a vida eterna" </h2>
+
+    <h3> João 3:16 </h3>
+
+    <h4> 😨MENSAGEM DE ALERTA🤨</h4>
+    <p style="text-align: center;">
+      <button onclick="alerta()">🚨ALERTA!🚨</button>
+    </p>
+
+    <h3>Altere a cor do fundo do site do fundo do site clicando em uma das cores abaixo: </h3>
+    <p style="text-align: center;">
+      <button onclick="vermelho()">Vermelho</button>
+      <button onclick="azul()">Azul</button>
+      <button onclick="verde()">Verde</button>
+      <button onclick="inicio()">Inicio</button>
+      <button onclick="escolhaCor()">Escolha uma cor</button>
+    </p>
+  </body>
+  <script>
+    console.log("Olá Mundo")
+
+    function alerta() {
+      var nome = prompt ("Olá, informe seu nome")
+      alert(`Olá, ${nome}!`)
+    }
+
+    function vermelho(){
+      document.getElementsByTagName("body")[0].style.background = "#ff0000"
+    }
+    function verde(){
+      document.getElementsByTagName("body")[0].style.background = "#00ff00"
+    }
+    function azul(){
+      document.getElementsByTagName("body")[0].style.background = "#0000ff"
+    }
+    function inicio(){
+      document.getElementsByTagName("body")[0].style.background = "#5694d3"
+    }
+    escolhaCor = () =>{
+      document.getElementsByTagName("body")[0].style.background = prompt ("Digite uma cor em inglês:")
+    }
+    
+  </script>
+</html>
+
+<!-- document.getElementsByTagName("body")[0].style.background = "#f94c89" -->
