@@ -10,4 +10,7 @@ const isLight = document.documentElement.classList.contains("light")
 const imagem = isLight ? "./img/perfil.jpg" : "./img/perfil2.jpg";
 
 document.querySelector("#perfil img ").setAttribute("src", imagem)
+
+const trocaAlt = isLight ? "ursinho marrom fofo" : "ursinho branco sério"
+document.querySelector("#perfil img ").setAttribute("alt", trocaAlt)
 };
